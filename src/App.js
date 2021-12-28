@@ -94,7 +94,7 @@ const App = () => {
         wavePortalContract.off("NewWave", onNewWave);
       }
     };
-  }, [])
+  }, [currentAccount])
 
   return (
     <div className="mainContainer">
